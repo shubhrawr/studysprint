@@ -1,0 +1,93 @@
+
+/* Basic page styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f5fb;
+  color: #22223b;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #5b4bdb;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+/* Main content */
+main {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Input and buttons */
+input {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #d8d8e8;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #5b4bdb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: #4031b5;
+}
+
+/* Task list */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 12px 0;
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+}
